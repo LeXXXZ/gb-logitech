@@ -35,6 +35,12 @@ body {
     line-height: 23px;
     text-align: center;
     color: #2F3132;
+    margin-bottom: 20px;
+}
+
+.top__text_margin {
+    margin-left: 59px;
+    margin-right: 59px;
 }
 
 .text {
@@ -44,17 +50,45 @@ body {
     line-height: 16px;
     text-align: center;
     color: #2F3132;
+    margin-bottom: 0;
 }
 
-.top__text_margin {
-    /* margin-left: 59px;
-    margin-right: 59px; */
-    width: 75%;
-    margin: auto;
+.text_margin {
+    margin-left: 34px;
+    margin-right: 34px;
 }
 
 .top__arrow {
     display: flex;
     justify-content: center;
     margin-top: 40px;
+}
+
+.bluetooth {
+    background: #EDEDED;
+    padding-top: 42px;
+    padding-bottom: 18px;
+}
+
+.bluetooth__icon {
+    margin-bottom: 27px;
+}
+
+.bluetooth__heading {
+    font-style: normal;
+    font-weight: 900;
+    font-size: 60px;
+    line-height: 70px;
+    text-align: center;
+    text-transform: uppercase;
+    color: #C4C4C4;
+    margin-top: 31px;
+}
+
+.bluetooth__img {
+    height: 288px;
+    background-image: url(img/png/High_Resolution_PNG-MX\ Master\ 3\ LEFT\ GRAPHITE\ 1.png);
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: center bottom;
 }
