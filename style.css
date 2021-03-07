@@ -530,4 +530,11 @@ line-height: 28px;
     .mouse__img_2 {
         background-image: url(img/png/image\ 2.png);
     }
+
+    footer {
+        font-size: 14px;
+        line-height: 16px;
+        height: 150px;
+        padding-top: 37px;
+    }
 }
