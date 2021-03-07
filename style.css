@@ -247,7 +247,6 @@ body {
 }
 
 .settings__slider .carousel-indicators [data-bs-target] {
-    width: 15px;
     height: 15px;
     border: none;
     background-size: contain;
@@ -261,7 +260,6 @@ body {
 .settings__content {
     background: #C4C4C4;
     padding: 23px 22px 26px 29px;
-    height: 155px;
 }
 
 .settings__icons {
@@ -425,11 +423,11 @@ footer {
         width: 45px;
         height: 45px;
     }
-    
+
     .flow {
-         padding-bottom: 498px;
-         padding-left: 64px;
-         padding-right: 65px;
+        padding-bottom: 498px;
+        padding-left: 64px;
+        padding-right: 65px;
     }
 
     .text_flow-p {
@@ -458,4 +456,55 @@ footer {
         padding-right: 0;
     }
 
+    .settings {
+        padding-bottom: 70px;
+    }
+
+    .heading-settings {
+        margin-left: 215px;
+        margin-right: 215px;
+    }
+
+    .text_settings {
+        margin-left: 64px;
+        margin-right: 65px;
+    }
+
+    .settings__slider {
+        height: 440px;
+        margin: 54px 198px 300px;
+    }
+
+    .settings__slider .carousel-indicators {
+        bottom: -250px;
+        width: 275px;
+    }
+
+    .settings__slider .carousel-indicators [data-bs-target] {
+        height: 25px;
+    }
+
+    .settings__content {
+        margin-left: 64px;
+        margin-right: 65px;
+    }
+
+    .settings__icons {
+        margin-left: 98px;
+        margin-right: 104px;
+        margin-bottom: 25px;
+
+    }
+
+    .settings__img {
+        height: 35px;
+
+    }
+
+    .settings__text {
+        font-size: 20px;
+        line-height: 23px;
+    }
+
+    
 }
