@@ -506,5 +506,28 @@ footer {
         line-height: 23px;
     }
 
+    .text_mouse {
+        margin-left: 0;
+        margin-right: 0;
+        font-size: 24px;
+line-height: 28px;
+    }
+
+    .mouse__text {
+        padding-left: 67px;
+        padding-right: 64px;
+        padding-bottom: 50px;
+    }
+
+    .mouse__img {
+        height: 549px;
+    }
+
+    .mouse__img_1 {
+        background-image: url(img/png/image\ 1.png);
+    }
     
+    .mouse__img_2 {
+        background-image: url(img/png/image\ 2.png);
+    }
 }
