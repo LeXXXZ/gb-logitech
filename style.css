@@ -338,9 +338,29 @@ footer {
         line-height: 28px;
     }
 
+    .text_margin {
+        margin-left: 77px;
+        margin-right: 77px;
+    }
+
     .top__arrow {
         margin-top: 70px;
     }
 
+    .bluetooth {
+        padding-top: 80px;
+        padding-bottom: 3px;
+    }
 
+    .bluetooth__heading {
+        font-size: 150px;
+        line-height: 176px;
+        margin-top: 76px;
+    }
+
+    .bluetooth__img {
+        height: 597px;
+        margin-left: 39px;
+        margin-right: 19px;
+    }
 }
