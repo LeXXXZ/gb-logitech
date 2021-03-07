@@ -70,6 +70,11 @@ body {
     margin-top: 40px;
 }
 
+.top__svg {
+    width: 42px;
+    height: 22px;
+}
+
 .gray {
     background: #EDEDED;
 }
@@ -299,4 +304,43 @@ footer {
     line-height: 8px;
     text-align: center;
     color: #C7C8C8;
+}
+
+@media (min-width: 768px) {
+    .top {
+        padding-top: 54px;
+        padding-bottom: 80px;
+    }
+
+    .header__img {
+        width: 240px;
+    }
+
+    .top__img {
+        margin-top: 160px;
+        margin-bottom: 124px;
+        height: 514px;
+    }
+
+    .heading {
+        font-size: 40px;
+        line-height: 47px;
+        margin-bottom: 30px;
+    }
+
+    .top__text_margin {
+        margin-left: 154px;
+        margin-right: 155px;
+    }
+
+    .text {
+        font-size: 24px;
+        line-height: 28px;
+    }
+
+    .top__arrow {
+        margin-top: 70px;
+    }
+
+
 }
