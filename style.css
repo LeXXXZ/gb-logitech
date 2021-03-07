@@ -38,7 +38,7 @@ body {
 .top__img {
     margin-top: 94px;
     margin-bottom: 67px;
-    background-image: url(/img/png/MX-Master\ 1.png);
+    background-image: url(/img/png/MX-Master_1.png);
     background-repeat: no-repeat;
     background-size: contain;
     background-position: center;
@@ -566,6 +566,17 @@ footer {
         padding-right: calc(50% - 580px);
     }
 
+    .heading {
+        font-size: 36px;
+        line-height: 42px;
+        margin-bottom: 35px;
+    }
+
+    .text {
+        font-size: 20px;
+        line-height: 23px;
+    }
+
     .header__img_dark {
         display: none;
     }
@@ -581,7 +592,6 @@ footer {
         display: flex;
         align-items: center;
     }
-
 
     .navbar {
         padding-top: 0;
@@ -625,5 +635,16 @@ footer {
     .nav-item:last-child {
         padding-right: 0;
         border: none;
+    }
+
+    .top__img {
+        margin-top: 20px;
+        height: 671px;
+        padding-top: 80px;
+        margin-bottom: 8px;
+    }
+
+    .top__arrow {
+        margin-top: 49px;
     }
 }
