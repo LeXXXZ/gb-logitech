@@ -3,18 +3,31 @@ body {
 }
 
 .top {
-    padding-top: 25px;
     padding-bottom: 48px;
     background: #E0E1E2;
 }
 
-.header {
-    display: flex;
+.header__img_light {
+    display: none;
+}
+
+.navbar>.container,
+.navbar>.container-fluid,
+.navbar>.container-lg,
+.navbar>.container-md,
+.navbar>.container-sm,
+.navbar>.container-xl,
+.navbar>.container-xxl {
     justify-content: center;
 }
 
-.header__img_light {
-    display: none;
+.navbar {
+    padding-top: 25px;
+}
+
+.navbar-light .navbar-toggler {
+    position: absolute;
+    right: 25px;
 }
 
 .center-content {
@@ -314,8 +327,11 @@ footer {
 
 @media (min-width: 768px) {
     .top {
-        padding-top: 54px;
         padding-bottom: 80px;
+    }
+
+    .navbar {
+        padding-top: 54px;
     }
 
     .header__img {
@@ -515,7 +531,7 @@ footer {
         margin-left: 0;
         margin-right: 0;
         font-size: 24px;
-line-height: 28px;
+        line-height: 28px;
     }
 
     .mouse__text {
@@ -531,7 +547,7 @@ line-height: 28px;
     .mouse__img_1 {
         background-image: url(img/png/image\ 1.png);
     }
-    
+
     .mouse__img_2 {
         background-image: url(img/png/image\ 2.png);
     }
@@ -556,6 +572,58 @@ line-height: 28px;
 
     .header__img_light {
         display: block;
+        width: 150px;
     }
 
+    .header {
+        background: #2F3132;
+        height: 100px;
+        display: flex;
+        align-items: center;
+    }
+
+
+    .navbar {
+        padding-top: 0;
+        padding-bottom: 0;
+    }
+
+    .navbar-light .navbar-nav .nav-link {
+        font-style: normal;
+        font-weight: 500;
+        font-size: 10px;
+        line-height: 14px;
+        text-align: center;
+        color: #FFFFFF;
+    }
+
+    .navbar-light .navbar-nav .nav-link:hover {
+        border-bottom: 1px solid #FFFFFF;
+        color: #FFFFFF;
+    }
+
+
+    .navbar-expand-lg .navbar-nav .nav-link {
+        padding-left: 0;
+        padding-right: 0;
+    }
+
+    .menu-desktop {
+        padding-left: 147px;
+    }
+
+    .nav-item {
+        padding-left: 21px;
+        padding-right: 21px;
+        border-right: 1px solid #494949;
+    }
+
+    .nav-item:first-child {
+        padding-left: 0;
+    }
+
+    .nav-item:last-child {
+        padding-right: 0;
+        border: none;
+    }
 }

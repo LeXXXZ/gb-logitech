@@ -8,16 +8,48 @@
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/css/bootstrap.min.css" rel="stylesheet"
         integrity="sha384-BmbxuPwQa2lc/FVzBcNJ7UAyJxM6wuqIj61tLrc4wSX0szH/Ev+nYRRuWlolflfl" crossorigin="anonymous">
     <link rel="preconnect" href="https://fonts.gstatic.com">
-    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;900&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;900&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="style.css">
     <title>Document</title>
 </head>
-
+ 
 <body>
     <section class="top">
-        <header class="header">
-            <a href="index.html"><img class="header__img header__img_dark" src="img/svg/Logo_Logitech_dark_1.svg" alt="logo"></a>
-            <a href="index.html"><img class="header__img header__img_light" src="img/svg/Logo_Logitech_1.svg" alt="logo"></a>
+        <header class="header center">
+            <nav class="navbar navbar-expand-lg navbar-light ">
+                <div class="container-fluid">
+                    <a href="index.html"><img class="header__img header__img_dark"
+                            src="img/svg/Logo_Logitech_dark_1.svg" alt="logo"></a>
+                    <a href="index.html"><img class="header__img header__img_light" src="img/svg/Logo_Logitech_1.svg"
+                            alt="logo"></a>
+                    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+                        aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                        <span class="navbar-toggler-icon"></span>
+                    </button>
+                    <div class="collapse navbar-collapse menu-desktop" id="navbarNav">
+                        <ul class="navbar-nav">
+                            <li class="nav-item">
+                                <a class="nav-link" href="#bluetooth">РАБОТАЙТЕ БЕЗ ПРОВОДОВ</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="#info">ГДЕ УГОДНО</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="#comfort">С КОМФОРТОМ</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="#flow">С РАЗНЫХ УСТРОЙСТВ</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="#settings">В ЛЮБОЕ ВРЕМЯ</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="#faster">И ЕЩЕ БЫСТРЕЕ</a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </nav>
         </header>
         <div class="top__img">
             <h2 class="heading">РАБОТАЙТЕ ПРОДУКТИВНЕЕ</h2>
@@ -52,7 +84,7 @@
         </div>
 
     </section>
-    <section class="info center">
+    <section class="info center" id="info">
         <h2 class="heading">ЗА ЛЮБЫМ СТОЛОМ</h2>
         <p class="info__text">
             Исследуйте ландшафты своего дома, не отвлекаясь от работы.
@@ -104,13 +136,11 @@
                     <img src="img/png/marble.png" class="d-block w-100" alt="marble">
                 </div>
             </div>
-            <button class="carousel-control-prev" type="button" data-bs-target="#info_carousel"
-                data-bs-slide="prev">
+            <button class="carousel-control-prev" type="button" data-bs-target="#info_carousel" data-bs-slide="prev">
                 <span class="carousel-control-prev-icon" aria-hidden="true"></span>
                 <span class="visually-hidden">Previous</span>
             </button>
-            <button class="carousel-control-next" type="button" data-bs-target="#info_carousel"
-                data-bs-slide="next">
+            <button class="carousel-control-next" type="button" data-bs-target="#info_carousel" data-bs-slide="next">
                 <span class="carousel-control-next-icon" aria-hidden="true"></span>
                 <span class="visually-hidden">Next</span>
             </button>
@@ -122,7 +152,7 @@
             MX Master 3 работает на любой поверхности, даже на стекле.
         </p>
     </section>
-    <section class="flow gray center ">
+    <section class="flow gray center" id="flow">
         <h2 class="heading">ОДНОВРЕМЕННО С НЕСКОЛЬКИХ УСТРОЙСТВ</h2>
         <p class="text text_margin text_flow-p">
             С технологией Flow вы сможете работать одновременно на нескольких компьютерах, мгновенно
@@ -144,7 +174,7 @@
         </ol>
 
     </section>
-    <section class="settings gray center">
+    <section class="settings gray center" id="settings">
         <h2 class="heading heading-settings">С ИНДИВИДУАЛЬНЫМИ НАСТРОЙКАМИ</h2>
         <p class="text text_margin text_settings">
             Мышь MX Master 3 адаптируется под ваши рабочие процессы. Благодаря
@@ -205,7 +235,7 @@
         </div>
     </section>
 
-    <section class="mouse center">
+    <section class="mouse center" id="comfort">
         <div class="mouse__text">
             <h2 class="heading">КОМФОРТНО.
                 ЭРГОНОМИЧНО. ИНТУИТИВНО.</h2>
@@ -216,7 +246,7 @@
             </p>
         </div>
         <div class="mouse__img mouse__img_1"></div>
-        <div class="mouse__text">
+        <div class="mouse__text" id="faster">
             <h2 class="heading">БЫСТРЕЕ, ЧЕМ КОГДА-ЛИБО</h2>
             <p class="text text_margin text_mouse">
                 Компьютерная мышь MX Master 3 предлагает ультимативный механизм прокрутки
