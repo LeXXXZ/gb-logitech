@@ -133,6 +133,8 @@ body {
 .info__item {
     border: 1px solid #2F3132;
     flex-basis: 166px;
+    padding-left: 17px;
+    padding-right: 17px;
     min-height: 94px;
     display: flex;
     flex-direction: column;
@@ -148,7 +150,6 @@ body {
 }
 
 .info__slider .carousel-indicators {
-    position: absolute;
     bottom: -94px;
     margin: 0 66px;
     display: flex;
@@ -160,6 +161,7 @@ body {
     height: 30.5px;
     border: none;
     background-size: contain;
+    background-repeat: no-repeat;
 }
 
 .info__slider .carousel-indicators [data-bs-slide-to="0"] {
@@ -208,7 +210,7 @@ body {
     text-align: center;
     color: #2F3132;
     position: relative;
-    bottom: 80px;
+    bottom: 70px;
 }
 
 .flow {
@@ -363,4 +365,64 @@ footer {
         margin-left: 39px;
         margin-right: 19px;
     }
+
+    .info {
+        padding-bottom: 61px;
+    }
+
+    .info__text {
+        font-size: 24px;
+        line-height: 28px;
+        margin-left: 77px;
+        margin-right: 77px;
+    }
+
+    .info__content {
+        margin-top: 50px;
+        margin-bottom: 50px;
+        gap: 30px;
+    }
+
+    .info__item {
+        min-height: 170px;
+    }
+
+    .info__item_heading {
+        margin-bottom: 5px;
+    }
+
+    .info__heading {
+        font-size: 24px;
+        line-height: 28px;
+        bottom: 80px;
+    }
+
+    .info__slider {
+        margin-bottom: 125px;
+    }
+
+    .info__slider .carousel-control-prev-icon {
+        bottom: -127px;
+        left: 245px;
+        width: 12px;
+        height: 24px;
+    }
+
+    .info__slider .carousel-control-next-icon {
+        bottom: -127px;
+        right: 245px;
+        width: 12px;
+        height: 24px;
+    }
+
+    .info__slider .carousel-indicators {
+        bottom: -146px;
+        margin: 0 287px;
+    }
+
+    .info__slider .carousel-indicators [data-bs-target] {
+        width: 45px;
+        height: 45px;
+    }
+    
 }
