@@ -538,3 +538,11 @@ line-height: 28px;
         padding-top: 37px;
     }
 }
+
+@media (min-width: 1024px) {
+    .center {
+        padding-left: calc(50% - 580px);
+        padding-right: calc(50% - 580px);
+    }
+
+}
