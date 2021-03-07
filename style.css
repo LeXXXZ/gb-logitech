@@ -38,7 +38,7 @@ body {
 .top__img {
     margin-top: 94px;
     margin-bottom: 67px;
-    background-image: url(/img/png/MX-Master_1.png);
+    background-image: url(/img/png/MX-Master_1_mob.png);
     background-repeat: no-repeat;
     background-size: contain;
     background-position: center;
@@ -339,6 +339,7 @@ footer {
     }
 
     .top__img {
+        background-image: url(/img/png/MX-Master_1_tab.png);
         margin-top: 160px;
         margin-bottom: 124px;
         height: 514px;
@@ -638,6 +639,7 @@ footer {
     }
 
     .top__img {
+        background-image: url(/img/png/MX-Master_1.png);
         margin-top: 20px;
         height: 671px;
         padding-top: 80px;
