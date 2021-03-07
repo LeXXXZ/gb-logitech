@@ -252,6 +252,7 @@ body {
     background-size: contain;
     background-image: url(img/svg/Ellipse\ 12.svg);
     background-repeat: no-repeat;
+    background-color: transparent;
     border: none;
     background-clip: unset;
     margin: 0;
