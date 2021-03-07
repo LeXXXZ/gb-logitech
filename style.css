@@ -92,3 +92,107 @@ body {
     background-size: contain;
     background-position: center bottom;
 }
+
+.info {
+    padding-top: 70px;
+    padding-bottom: 77px;
+}
+
+.info__text {
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 16px;
+    text-align: center;
+    margin-left: 61px;
+    margin-right: 67px;
+}
+
+.info__content {
+    margin-top: 30px;
+    margin-bottom: 28px;
+    display: flex;
+    justify-content: center;
+    gap: 6px;
+}
+
+.info__item {
+    border: 1px solid #2F3132;
+    flex-basis: 166px;
+    min-height: 94px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.info__item_heading {
+    margin-bottom: 5px;
+}
+
+.carousel {
+    margin-bottom: 100px;
+}
+
+.carousel-indicators {
+    position: absolute;
+    bottom: -94px;
+    margin: 0 66px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.carousel-indicators [data-bs-target] {
+    width: 30.5px;
+    height: 30.5px;
+    border: none;
+    background-size: contain;
+}
+
+.carousel-indicators [data-bs-slide-to="0"] {
+    background-image: url(img/png/wood-texture.png);
+}
+
+.carousel-indicators [data-bs-slide-to="1"] {
+    background-image: url(img/png/glass-texture.png);
+}
+
+.carousel-indicators [data-bs-slide-to="2"] {
+    background-image: url(img/png/linoleum-texture.png);
+}
+
+.carousel-indicators [data-bs-slide-to="3"] {
+    background-image: url(img/png/cloth-texture.png);
+}
+
+.carousel-indicators [data-bs-slide-to="4"] {
+    background-image: url(img/png/marble-texture.png);
+}
+
+.carousel-control-prev-icon {
+    position: absolute;
+    bottom: -88px;
+    left: 34px;
+    width: 9.15px;
+    height: 18.3px;
+    background-image: url(/img/svg/arrow-left.svg);
+}
+
+.carousel-control-next-icon {
+    position: absolute;
+    bottom: -88px;
+    right: 34px;
+    width: 9.15px;
+    height: 18.3px;
+    background-image: url(/img/svg/arrow-right.svg);
+}
+
+.info__heading {
+    font-style: normal;
+    font-weight: 900;
+    font-size: 14px;
+    line-height: 16px;
+    text-align: center;
+    color: #2F3132;
+    position: relative;
+    bottom: 80px;
+}
