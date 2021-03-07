@@ -58,14 +58,22 @@ body {
     margin-right: 34px;
 }
 
+.text_flow {
+    margin-bottom: 16px;
+    text-align: left;
+    width: 222px;
+}
+
 .top__arrow {
     display: flex;
     justify-content: center;
     margin-top: 40px;
 }
 
-.bluetooth {
+.gray {
     background: #EDEDED;
+}
+.bluetooth {
     padding-top: 42px;
     padding-bottom: 18px;
 }
@@ -195,4 +203,17 @@ body {
     color: #2F3132;
     position: relative;
     bottom: 80px;
+}
+
+.flow {
+    padding-top: 70px;
+    padding-bottom: 219px;
+    background-image: url(img/png/High_Resolution_JPG-MX\ Lifestyle\ 2346\ 1.png);
+    background-repeat: no-repeat;
+    background-position: bottom;
+}
+
+.flow__ol {
+    margin-top: 36px;
+    padding-left: 54px;
 }
