@@ -168,7 +168,9 @@ body {
 
 .info__slider .carousel-indicators {
     bottom: -94px;
-    margin: 0 66px;
+    margin: 0;
+    padding-left: calc(50% - 123px);
+    padding-right: calc(50% - 123px);
     display: flex;
     justify-content: space-between;
 }
@@ -310,7 +312,7 @@ body {
 
 .mouse__img {
     height: 310px;
-    background-size: contain;
+    background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
 }
@@ -722,6 +724,11 @@ footer {
         bottom: -130px;
     }
 
+    .info__slider .carousel-control-prev-icon,
+    .info__slider .carousel-control-next-icon {
+        bottom: -120px;
+    }
+
     .info__heading {
         font-size: 20px;
         line-height: 23px;
@@ -807,13 +814,11 @@ footer {
 
     .mouse__img_1 {
         order: 0;
-    background-size: cover;
     background-image: url(img/png/image\ 1_desktop.png);
     }
 
     .mouse__img_2 {
         order: 3;
-    background-size: cover;
     background-image: url(img/png/image\ 2_desktop.png);
     }
 
