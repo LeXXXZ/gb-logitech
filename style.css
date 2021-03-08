@@ -201,21 +201,28 @@ body {
     background-image: url(img/png/marble-texture.png);
 }
 
-.info__slider .carousel-control-prev-icon {
+.info__slider .carousel-control-prev {
+    padding-left: calc(50% - 154px);
+}
+
+.info__slider .carousel-control-next {
+    padding-right: calc(50% - 154px);
+}
+
+
+.info__slider .carousel-control-prev-icon,
+.info__slider .carousel-control-next-icon {
     position: absolute;
     bottom: -88px;
-    left: 34px;
     width: 9.15px;
     height: 18.3px;
+}
+
+.info__slider .carousel-control-prev-icon {
     background-image: url(/img/svg/arrow-left.svg);
 }
 
 .info__slider .carousel-control-next-icon {
-    position: absolute;
-    bottom: -88px;
-    right: 34px;
-    width: 9.15px;
-    height: 18.3px;
     background-image: url(/img/svg/arrow-right.svg);
 }
 
@@ -391,13 +398,6 @@ footer {
         padding-bottom: 61px;
     }
 
-    .info__text {
-        font-size: 24px;
-        line-height: 28px;
-        margin-left: 77px;
-        margin-right: 77px;
-    }
-
     .info__content {
         margin-top: 50px;
         margin-bottom: 50px;
@@ -422,28 +422,31 @@ footer {
         margin-bottom: 125px;
     }
 
-    .info__slider .carousel-control-prev-icon {
-        bottom: -127px;
-        left: 245px;
-        width: 12px;
-        height: 24px;
+    .info__slider .carousel-control-prev {
+        padding-left: calc(50% - 202px);
+    }
+    
+    .info__slider .carousel-control-next {
+        padding-right: calc(50% - 202px);
     }
 
+    .info__slider .carousel-control-prev-icon,
     .info__slider .carousel-control-next-icon {
-        bottom: -127px;
-        right: 245px;
+        bottom: -137px;
         width: 12px;
         height: 24px;
     }
 
     .info__slider .carousel-indicators {
         bottom: -146px;
-        margin: 0 287px;
+        padding-left: calc(50% - 160px);
+        padding-right: calc(50% - 160px);
+        margin: 0;
     }
 
     .info__slider .carousel-indicators [data-bs-target] {
-        width: 45px;
-        height: 45px;
+        width: 40px;
+        height: 40px;
     }
 
     .flow {
@@ -689,7 +692,7 @@ footer {
         padding-bottom: 100px;
     }
 
-    .info__text {
+    .info__text, .info__text2 {
         width: 765px;
         margin: auto;
     }
@@ -707,5 +710,14 @@ footer {
     .info__slider {
         padding-left: calc(50% - 640px);
         padding-right: calc(50% - 640px);
+        margin-bottom: 130px;
+    }
+
+    .info__slider .carousel-indicators {
+        bottom: -130px;
+    }
+    .info__heading {
+        font-size: 20px;
+        line-height: 23px;
     }
 }
