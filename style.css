@@ -720,4 +720,18 @@ footer {
         font-size: 20px;
         line-height: 23px;
     }
+
+    .flow {
+        padding-bottom: 870px;
+        background-image: url(img/png/High_Resolution_JPG-MX\ Lifestyle\ 2346\ 1\ desktop.png);
+    }
+
+    .flow_center {
+        padding-left: calc(50% - 479px);
+        padding-right: calc(50% - 479px);
+    }
+
+    .flow__ol {
+        margin-left: 15px;;
+    }
 }
