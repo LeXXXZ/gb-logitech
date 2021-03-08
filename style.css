@@ -166,6 +166,14 @@ body {
     margin-bottom: 100px;
 }
 
+.info__slider>.carousel-inner>.carousel-item>img:nth-child(2) {
+    display: none !important;
+}
+
+.info__slider>.carousel-inner>.carousel-item>img:nth-child(3) {
+    display: none !important;
+}
+
 .info__slider .carousel-indicators {
     bottom: -94px;
     margin: 0;
@@ -242,7 +250,7 @@ body {
 .flow {
     padding-top: 70px;
     padding-bottom: 219px;
-    background-image: url(img/png/High_Resolution_JPG-MX\ Lifestyle\ 2346\ 1.png);
+    background-image: url(img/png/High_Resolution_JPG-MX\ Lifestyle\ 2346\ 1_mob.png);
     background-repeat: no-repeat;
     background-position: bottom;
     background-size: contain;
@@ -321,17 +329,16 @@ body {
 
 .mouse__img {
     height: 310px;
-    background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
 }
 
 .mouse__img_1 {
-    background-image: url(img/png/image\ 1.png);
+    background-image: url(img/png/image\ 1_mob.png);
 }
 
 .mouse__img_2 {
-    background-image: url(img/png/image\ 2.png);
+    background-image: url(img/png/image\ 2_mob.png);
 }
 
 footer {
@@ -404,6 +411,7 @@ footer {
     }
 
     .bluetooth__img {
+        background-image: url(img/png/High_Resolution_PNG-MX\ Master\ 3\ LEFT\ GRAPHITE\ 1_tab.png);
         height: 597px;
         margin-left: 39px;
         margin-right: 19px;
@@ -437,6 +445,18 @@ footer {
         margin-bottom: 125px;
     }
 
+    .info__slider>.carousel-inner>.carousel-item>img:nth-child(1) {
+        display: none !important;
+    }
+
+    .info__slider>.carousel-inner>.carousel-item>img:nth-child(2) {
+        display: block !important;
+    }
+
+    .info__slider>.carousel-inner>.carousel-item>img:nth-child(3) {
+        display: none !important;
+    }
+
     .info__slider .carousel-control-prev {
         padding-left: calc(50% - 202px);
     }
@@ -468,6 +488,7 @@ footer {
         padding-bottom: 498px;
         padding-left: 64px;
         padding-right: 65px;
+        background-image: url(img/png/High_Resolution_JPG-MX\ Lifestyle\ 2346\ 1_tab.png);
     }
 
     .text_flow-p {
@@ -576,11 +597,11 @@ footer {
     }
 
     .mouse__img_1 {
-        background-image: url(img/png/image\ 1.png);
+        background-image: url(img/png/image\ 1_tab.png);
     }
 
     .mouse__img_2 {
-        background-image: url(img/png/image\ 2.png);
+        background-image: url(img/png/image\ 2_tab.png);
     }
 
     footer {
@@ -739,6 +760,18 @@ footer {
         padding-left: calc(50% - 640px);
         padding-right: calc(50% - 640px);
         margin-bottom: 130px;
+    }
+
+    .info__slider>.carousel-inner>.carousel-item>img:nth-child(1) {
+        display: none !important;
+    }
+
+    .info__slider>.carousel-inner>.carousel-item>img:nth-child(2) {
+        display: none !important;
+    }
+
+    .info__slider>.carousel-inner>.carousel-item>img:nth-child(3) {
+        display: block !important;
     }
 
     .info__slider .carousel-indicators {
